@@ -4,7 +4,9 @@ import com.demo.colorsapplication.services.BluePrinter;
 import com.demo.colorsapplication.services.ColorPrinter;
 import com.demo.colorsapplication.services.GreenPrinter;
 import com.demo.colorsapplication.services.RedPrinter;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ColorPrinterImpl implements ColorPrinter {
     private RedPrinter redPrinter;
     private BluePrinter bluePrinter;
